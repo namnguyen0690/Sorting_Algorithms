@@ -17,7 +17,7 @@ class InsertionSort {
         }
     }
 
-    /* A utility function to print array of size n */
+    /* Utility function to print array of size n */
     static void printArray(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; ++i)
@@ -27,7 +27,7 @@ class InsertionSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 16, 6, 90, 11, 94, 20, 10};
+        int arr[] = { 31, 41, 59, 26, 41, 58};
         InsertionSort insertionSort = new InsertionSort();
         insertionSort.sort(arr);
         printArray(arr);
